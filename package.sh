@@ -6,5 +6,6 @@ if [ $? -ne 0 ]; then
   exit 127
 fi
 
-${FPMPATH} 
+${FPMPATH} -f -s dir -t rpm -a noarch -n collectd-rabbitmq -v 1.0 --prefix /etc ./collectd.bin/ ./collectd.d/
+
 
