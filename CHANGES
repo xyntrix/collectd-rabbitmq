@@ -1,0 +1,5 @@
+This code was forked from https://github.com/NYTimes/collectd-rabbitmq  
+The following changes were made:
+
+- moved file structure to match relative to /etc/
+- added fpm packaging 
